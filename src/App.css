@@ -1,0 +1,30 @@
+.comments-block {    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.comment {
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: 30px ;
+    padding: 10px;
+    row-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons {
+    display: flex;
+    column-gap: 10px;
+}
+.mutation {
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
