@@ -1,0 +1,54 @@
+.modal,
+.modal-bgc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+
+.modal-bgc {
+  background-color: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+  background-color: #fff;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item-input {
+  padding: 10px;
+  border: 1px solid grey;
+  width: 400px;
+}
+
+.btn {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 10px 30px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+}

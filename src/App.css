@@ -1,30 +1,50 @@
-.comments-block {    
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 20px;
+.comments-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
 .comment {
-    border: 1px solid gray;
-    border-radius: 20px;
-    font-size: 30px ;
-    padding: 10px;
-    row-gap: 20px;
-    width: 100%;
-    padding: 20px;
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 10px;
+  row-gap: 20px;
+  width: 100%;
+  padding: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
 }
 .buttons {
-    display: flex;
-    column-gap: 10px;
+  display: flex;
+  column-gap: 10px;
 }
 .mutation {
-    width: 100px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid gray;
-    cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.add-btn {
+  position: fixed;
+  z-index: 2;
+  right: 60px;
+  top: 40px;
+  background-color: aqua;
+  border: 1px solid grey;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.delete {
+  right: 60px;
+  top: 120px;
+}
+
+.selected {
+  top: 190px;
 }
